@@ -15,6 +15,6 @@ Bastiaan<br>
 Status:<br>
 ====================<br>
 
-10-Juli-2014: Commited the original Linux SDK. Analyzing the code and whats need to be done. 
+10-Juli-2014: Commited the original Linux based version of the SDK. Analyzing the code and whats need to be done. 
 
 More info coming..
