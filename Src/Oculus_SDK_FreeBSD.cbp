@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Oculus_SDK_FreeBSD" />
+		<Option pch_mode="2" />
+		<Option compiler="clang" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Oculus_SDK_FreeBSD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Oculus_SDK_FreeBSD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Weverything" />
+		</Compiler>
+		<Unit filename="CAPI/CAPI_DistortionRenderer.cpp" />
+		<Unit filename="CAPI/CAPI_DistortionRenderer.h" />
+		<Unit filename="CAPI/CAPI_FrameTimeManager.cpp" />
+		<Unit filename="CAPI/CAPI_FrameTimeManager.h" />
+		<Unit filename="CAPI/CAPI_GlobalState.cpp" />
+		<Unit filename="CAPI/CAPI_GlobalState.h" />
+		<Unit filename="CAPI/CAPI_HMDRenderState.cpp" />
+		<Unit filename="CAPI/CAPI_HMDRenderState.h" />
+		<Unit filename="CAPI/CAPI_HMDState.cpp" />
+		<Unit filename="CAPI/CAPI_HMDState.h" />
+		<Unit filename="CAPI/GL/CAPI_GL_DistortionRenderer.cpp" />
+		<Unit filename="CAPI/GL/CAPI_GL_DistortionRenderer.h" />
+		<Unit filename="CAPI/GL/CAPI_GL_DistortionShaders.h" />
+		<Unit filename="CAPI/GL/CAPI_GL_Util.cpp" />
+		<Unit filename="CAPI/GL/CAPI_GL_Util.h" />
+		<Unit filename="Kernel/OVR_Alg.cpp" />
+		<Unit filename="Kernel/OVR_Alg.h" />
+		<Unit filename="Kernel/OVR_Allocator.cpp" />
+		<Unit filename="Kernel/OVR_Allocator.h" />
+		<Unit filename="Kernel/OVR_Array.h" />
+		<Unit filename="Kernel/OVR_Atomic.cpp" />
+		<Unit filename="Kernel/OVR_Atomic.h" />
+		<Unit filename="Kernel/OVR_Color.h" />
+		<Unit filename="Kernel/OVR_ContainerAllocator.h" />
+		<Unit filename="Kernel/OVR_Deque.h" />
+		<Unit filename="Kernel/OVR_File.cpp" />
+		<Unit filename="Kernel/OVR_File.h" />
+		<Unit filename="Kernel/OVR_FileFILE.cpp" />
+		<Unit filename="Kernel/OVR_Hash.h" />
+		<Unit filename="Kernel/OVR_KeyCodes.h" />
+		<Unit filename="Kernel/OVR_List.h" />
+		<Unit filename="Kernel/OVR_Lockless.cpp" />
+		<Unit filename="Kernel/OVR_Lockless.h" />
+		<Unit filename="Kernel/OVR_Log.cpp" />
+		<Unit filename="Kernel/OVR_Log.h" />
+		<Unit filename="Kernel/OVR_Math.cpp" />
+		<Unit filename="Kernel/OVR_Math.h" />
+		<Unit filename="Kernel/OVR_RefCount.cpp" />
+		<Unit filename="Kernel/OVR_RefCount.h" />
+		<Unit filename="Kernel/OVR_Std.cpp" />
+		<Unit filename="Kernel/OVR_Std.h" />
+		<Unit filename="Kernel/OVR_String.cpp" />
+		<Unit filename="Kernel/OVR_String.h" />
+		<Unit filename="Kernel/OVR_StringHash.h" />
+		<Unit filename="Kernel/OVR_String_FormatUtil.cpp" />
+		<Unit filename="Kernel/OVR_String_PathUtil.cpp" />
+		<Unit filename="Kernel/OVR_SysFile.cpp" />
+		<Unit filename="Kernel/OVR_SysFile.h" />
+		<Unit filename="Kernel/OVR_System.cpp" />
+		<Unit filename="Kernel/OVR_System.h" />
+		<Unit filename="Kernel/OVR_Threads.h" />
+		<Unit filename="Kernel/OVR_ThreadsPthread.cpp" />
+		<Unit filename="Kernel/OVR_Timer.cpp" />
+		<Unit filename="Kernel/OVR_Timer.h" />
+		<Unit filename="Kernel/OVR_Types.h" />
+		<Unit filename="Kernel/OVR_UTF8Util.cpp" />
+		<Unit filename="Kernel/OVR_UTF8Util.h" />
+		<Unit filename="OVR_CAPI.cpp" />
+		<Unit filename="OVR_CAPI.h" />
+		<Unit filename="OVR_CAPI_GL.h" />
+		<Unit filename="OVR_Common_HMDDevice.cpp" />
+		<Unit filename="OVR_Device.h" />
+		<Unit filename="OVR_DeviceConstants.h" />
+		<Unit filename="OVR_DeviceHandle.cpp" />
+		<Unit filename="OVR_DeviceHandle.h" />
+		<Unit filename="OVR_DeviceImpl.cpp" />
+		<Unit filename="OVR_DeviceImpl.h" />
+		<Unit filename="OVR_DeviceMessages.h" />
+		<Unit filename="OVR_HIDDevice.h" />
+		<Unit filename="OVR_HIDDeviceBase.h" />
+		<Unit filename="OVR_HIDDeviceImpl.h" />
+		<Unit filename="OVR_JSON.cpp" />
+		<Unit filename="OVR_JSON.h" />
+		<Unit filename="OVR_LatencyTestImpl.cpp" />
+		<Unit filename="OVR_LatencyTestImpl.h" />
+		<Unit filename="OVR_Linux_DeviceManager.cpp" />
+		<Unit filename="OVR_Linux_DeviceManager.h" />
+		<Unit filename="OVR_Linux_HIDDevice.cpp" />
+		<Unit filename="OVR_Linux_HIDDevice.h" />
+		<Unit filename="OVR_Linux_HMDDevice.cpp" />
+		<Unit filename="OVR_Linux_HMDDevice.h" />
+		<Unit filename="OVR_Linux_SensorDevice.cpp" />
+		<Unit filename="OVR_Profile.cpp" />
+		<Unit filename="OVR_Profile.h" />
+		<Unit filename="OVR_Recording.cpp" />
+		<Unit filename="OVR_Recording.h" />
+		<Unit filename="OVR_Sensor2Impl.cpp" />
+		<Unit filename="OVR_Sensor2Impl.h" />
+		<Unit filename="OVR_Sensor2ImplUtil.h" />
+		<Unit filename="OVR_SensorCalibration.cpp" />
+		<Unit filename="OVR_SensorCalibration.h" />
+		<Unit filename="OVR_SensorFilter.cpp" />
+		<Unit filename="OVR_SensorFilter.h" />
+		<Unit filename="OVR_SensorFusion.cpp" />
+		<Unit filename="OVR_SensorFusion.h" />
+		<Unit filename="OVR_SensorFusionDebug.h" />
+		<Unit filename="OVR_SensorImpl.cpp" />
+		<Unit filename="OVR_SensorImpl.h" />
+		<Unit filename="OVR_SensorImpl_Common.cpp" />
+		<Unit filename="OVR_SensorImpl_Common.h" />
+		<Unit filename="OVR_SensorTimeFilter.cpp" />
+		<Unit filename="OVR_SensorTimeFilter.h" />
+		<Unit filename="OVR_Stereo.cpp" />
+		<Unit filename="OVR_Stereo.h" />
+		<Unit filename="OVR_ThreadCommandQueue.cpp" />
+		<Unit filename="OVR_ThreadCommandQueue.h" />
+		<Unit filename="Util/Util_ImageWindow.cpp" />
+		<Unit filename="Util/Util_ImageWindow.h" />
+		<Unit filename="Util/Util_Interface.cpp" />
+		<Unit filename="Util/Util_Interface.h" />
+		<Unit filename="Util/Util_LatencyTest.cpp" />
+		<Unit filename="Util/Util_LatencyTest.h" />
+		<Unit filename="Util/Util_LatencyTest2.cpp" />
+		<Unit filename="Util/Util_LatencyTest2.h" />
+		<Unit filename="Util/Util_Render_Stereo.cpp" />
+		<Unit filename="Util/Util_Render_Stereo.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
